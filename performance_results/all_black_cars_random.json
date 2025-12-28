@@ -1,0 +1,64 @@
+[
+    {
+        "ALE/Freeway-v5_2025-08-17-14-10_random": {
+            "model": "random",
+            "episode_rewards": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.03333333333333333,
+            "std_reward": 0.1795054935711501,
+            "median_reward": 0.0,
+            "iqm_reward": 0.0,
+            "hns_mean": 0.0011261261261261261,
+            "hns_iqm": 0.0,
+            "min_reward": 0.0,
+            "max_reward": 1.0,
+            "human": 29.6,
+            "random": 0.0,
+            "Args": {
+                "game": "ALE/Freeway-v5",
+                "window": 4,
+                "frameskip": 4,
+                "dopamine_pooling": false,
+                "modifs": [
+                    "all_black_cars"
+                ],
+                "reward_function": "",
+                "game_mode": 0,
+                "difficulty": 0,
+                "episodes": 30,
+                "output": "all_black_cars_random.json",
+                "name": "all_black_cars_random"
+            }
+        }
+    }
+]

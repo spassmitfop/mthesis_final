@@ -1,0 +1,62 @@
+[
+    {
+        "ALE/Seaquest-v5_2025-08-03-14-50_random": {
+            "model": "random",
+            "episode_rewards": [
+                80.0,
+                0.0,
+                180.0,
+                40.0,
+                20.0,
+                40.0,
+                20.0,
+                60.0,
+                200.0,
+                140.0,
+                120.0,
+                80.0,
+                80.0,
+                100.0,
+                120.0,
+                60.0,
+                140.0,
+                80.0,
+                20.0,
+                60.0,
+                40.0,
+                140.0,
+                60.0,
+                0.0,
+                80.0,
+                120.0,
+                40.0,
+                160.0,
+                20.0,
+                180.0
+            ],
+            "mean_reward": 82.66666666666667,
+            "std_reward": 55.313249367177434,
+            "median_reward": 80.0,
+            "iqm_reward": 76.25,
+            "hns_mean": 0.0003397933770460047,
+            "hns_iqm": 0.0001869657483512478,
+            "min_reward": 0.0,
+            "max_reward": 200.0,
+            "human": 42054.7,
+            "random": 68.4,
+            "Args": {
+                "game": "ALE/Seaquest-v5",
+                "window": 4,
+                "frameskip": 4,
+                "dopamine_pooling": false,
+                "modifs": [],
+                "reward_function": "",
+                "game_mode": 0,
+                "difficulty": 0,
+                "episodes": 30,
+                "output": "sq_2_random.json",
+                "name": "seaquest_random"
+            }
+        }
+    }
+]

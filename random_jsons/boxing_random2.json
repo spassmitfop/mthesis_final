@@ -1,0 +1,62 @@
+[
+    {
+        "ALE/Boxing-v5_2025-08-03-14-51_random": {
+            "model": "random",
+            "episode_rewards": [
+                1.0,
+                2.0,
+                4.0,
+                1.0,
+                6.0,
+                0.0,
+                7.0,
+                2.0,
+                6.0,
+                3.0,
+                3.0,
+                -9.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                4.0,
+                -1.0,
+                0.0,
+                5.0,
+                0.0,
+                16.0,
+                12.0,
+                7.0,
+                5.0,
+                2.0,
+                -1.0,
+                1.0,
+                0.0,
+                1.0
+            ],
+            "mean_reward": 2.6666666666666665,
+            "std_reward": 4.323064756499594,
+            "median_reward": 2.0,
+            "iqm_reward": 2.0,
+            "hns_mean": 0.21388888888888888,
+            "hns_iqm": 0.15833333333333333,
+            "min_reward": -9.0,
+            "max_reward": 16.0,
+            "human": 12.1,
+            "random": 0.1,
+            "Args": {
+                "game": "ALE/Boxing-v5",
+                "window": 4,
+                "frameskip": 4,
+                "dopamine_pooling": false,
+                "modifs": [],
+                "reward_function": "",
+                "game_mode": 0,
+                "difficulty": 0,
+                "episodes": 30,
+                "output": "boxing_2_random.json",
+                "name": "boxing_random"
+            }
+        }
+    }
+]

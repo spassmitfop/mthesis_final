@@ -1,0 +1,23 @@
+{
+    "lazy_enemy": -20.466666666666665,
+    "up_drift": -19.375,
+    "hidden_enemy": -21.0,
+    "relocate_shields_off_by_three": 257.3333333333333,
+    "relocate_shields_right": 219.5,
+    "stop_all_cars_edge": 0.0,
+    "reverse_car_speed_top": 14.833333333333334,
+    "all_black_cars": 24.0625,
+    "pig_enemies": 13.733333333333333,
+    "paint_roller_player": 80.25,
+    "gravity": 861.3333333333334,
+    "random_color_enemies": 840.0,
+    "switch_positions": -93.625,
+    "drunken_boxing": 81.375,
+    "color_player_red": 35.9375,
+    "pong": 17.133333333333333,
+    "spaceinvaders": 303.8333333333333,
+    "freeway": 30.6875,
+    "amidar": 232.96666666666667,
+    "seaquest": 824.0,
+    "boxing": 87.93333333333334
+}

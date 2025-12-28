@@ -1,0 +1,64 @@
+[
+    {
+        "ALE/Freeway-v5_2025-08-11-15-56_random": {
+            "model": "random",
+            "episode_rewards": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0,
+            "std_reward": 0.0,
+            "median_reward": 0.0,
+            "iqm_reward": 0.0,
+            "hns_mean": 0.0,
+            "hns_iqm": 0.0,
+            "min_reward": 0.0,
+            "max_reward": 0.0,
+            "human": 29.6,
+            "random": 0.0,
+            "Args": {
+                "game": "ALE/Freeway-v5",
+                "window": 4,
+                "frameskip": 4,
+                "dopamine_pooling": false,
+                "modifs": [
+                    "reverse_car_speed_top"
+                ],
+                "reward_function": "",
+                "game_mode": 0,
+                "difficulty": 0,
+                "episodes": 30,
+                "output": "reverse_car_speed_top_2_random.json",
+                "name": "reverse_car_speed_top_random"
+            }
+        }
+    }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "ALE/Amidar-v5_2025-08-11-15-57_random": {
+            "model": "random",
+            "episode_rewards": [
+                4.0,
+                0.0,
+                5.0,
+                12.0,
+                0.0,
+                9.0,
+                9.0,
+                4.0,
+                0.0,
+                3.0,
+                3.0,
+                0.0,
+                1.0,
+                5.0,
+                0.0,
+                3.0,
+                5.0,
+                1.0,
+                4.0,
+                5.0,
+                5.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                3.0,
+                9.0,
+                1.0,
+                0.0
+            ],
+            "mean_reward": 3.033333333333333,
+            "std_reward": 3.2810906045940817,
+            "median_reward": 3.0,
+            "iqm_reward": 2.3125,
+            "hns_mean": -0.0016144404893894302,
+            "hns_iqm": -0.0020350703156911945,
+            "min_reward": 0.0,
+            "max_reward": 12.0,
+            "human": 1719.5,
+            "random": 5.8,
+            "Args": {
+                "game": "ALE/Amidar-v5",
+                "window": 4,
+                "frameskip": 4,
+                "dopamine_pooling": false,
+                "modifs": [
+                    "paint_roller_player"
+                ],
+                "reward_function": "",
+                "game_mode": 0,
+                "difficulty": 0,
+                "episodes": 30,
+                "output": "paint_roller_player_2_random.json",
+                "name": "paint_roller_player_random"
+            }
+        }
+    }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "ALE/Boxing-v5_2025-08-06-14-57_random": {
+            "model": "random",
+            "episode_rewards": [
+                1.0,
+                -7.0,
+                -1.0,
+                16.0,
+                -1.0,
+                7.0,
+                -8.0,
+                2.0,
+                1.0,
+                0.0,
+                5.0,
+                1.0,
+                -3.0,
+                2.0,
+                -1.0,
+                0.0,
+                2.0,
+                -4.0,
+                2.0,
+                7.0,
+                1.0,
+                9.0,
+                -9.0,
+                0.0,
+                2.0,
+                -2.0,
+                -2.0,
+                -4.0,
+                4.0,
+                6.0
+            ],
+            "mean_reward": 0.8666666666666667,
+            "std_reward": 5.031456603763522,
+            "median_reward": 1.0,
+            "iqm_reward": 0.5625,
+            "hns_mean": 0.0638888888888889,
+            "hns_iqm": 0.03854166666666667,
+            "min_reward": -9.0,
+            "max_reward": 16.0,
+            "human": 12.1,
+            "random": 0.1,
+            "Args": {
+                "game": "ALE/Boxing-v5",
+                "window": 4,
+                "frameskip": 4,
+                "dopamine_pooling": false,
+                "modifs": [
+                    "drunken_boxing"
+                ],
+                "reward_function": "",
+                "game_mode": 0,
+                "difficulty": 0,
+                "episodes": 30,
+                "output": "drunken_boxing_2_random.json",
+                "name": "drunken_boxing_random"
+            }
+        }
+    }
+]

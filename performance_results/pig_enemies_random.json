@@ -1,0 +1,64 @@
+[
+    {
+        "ALE/Amidar-v5_2025-08-11-15-57_random": {
+            "model": "random",
+            "episode_rewards": [
+                3.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                10.0,
+                297.0,
+                1.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                400.0,
+                0.0,
+                104.0,
+                1.0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                3.0,
+                4.0,
+                1.0,
+                0.0,
+                99.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 34.2,
+            "std_reward": 90.16222416659136,
+            "median_reward": 0.5,
+            "iqm_reward": 0.75,
+            "hns_mean": 0.01657232887903367,
+            "hns_iqm": -0.0029468401703915503,
+            "min_reward": 0.0,
+            "max_reward": 400.0,
+            "human": 1719.5,
+            "random": 5.8,
+            "Args": {
+                "game": "ALE/Amidar-v5",
+                "window": 4,
+                "frameskip": 4,
+                "dopamine_pooling": false,
+                "modifs": [
+                    "pig_enemies"
+                ],
+                "reward_function": "",
+                "game_mode": 0,
+                "difficulty": 0,
+                "episodes": 30,
+                "output": "pig_enemies_2_random.json",
+                "name": "pig_enemies_random"
+            }
+        }
+    }
+]

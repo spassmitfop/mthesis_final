@@ -1,0 +1,64 @@
+[
+    {
+        "ALE/Pong-v5_2025-08-06-14-51_random": {
+            "model": "random",
+            "episode_rewards": [
+                -20.0,
+                -21.0,
+                -21.0,
+                -20.0,
+                -20.0,
+                -20.0,
+                -19.0,
+                -21.0,
+                -21.0,
+                -21.0,
+                -20.0,
+                -21.0,
+                -19.0,
+                -20.0,
+                -20.0,
+                -21.0,
+                -21.0,
+                -20.0,
+                -21.0,
+                -20.0,
+                -21.0,
+                -20.0,
+                -21.0,
+                -21.0,
+                -19.0,
+                -20.0,
+                -18.0,
+                -21.0,
+                -20.0,
+                -21.0
+            ],
+            "mean_reward": -20.3,
+            "std_reward": 0.7810249675906653,
+            "median_reward": -20.0,
+            "iqm_reward": -20.4375,
+            "hns_mean": 0.01133144475920676,
+            "hns_iqm": 0.007436260623229442,
+            "min_reward": -21.0,
+            "max_reward": -18.0,
+            "human": 14.6,
+            "random": -20.7,
+            "Args": {
+                "game": "ALE/Pong-v5",
+                "window": 4,
+                "frameskip": 4,
+                "dopamine_pooling": false,
+                "modifs": [
+                    "up_drift"
+                ],
+                "reward_function": "",
+                "game_mode": 0,
+                "difficulty": 0,
+                "episodes": 30,
+                "output": "up_drift_2_random.json",
+                "name": "up_drift_random"
+            }
+        }
+    }
+]

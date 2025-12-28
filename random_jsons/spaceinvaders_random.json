@@ -1,0 +1,62 @@
+[
+    {
+        "ALE/SpaceInvaders-v5_2025-08-05-10-43_random": {
+            "model": "random",
+            "episode_rewards": [
+                145.0,
+                145.0,
+                210.0,
+                55.0,
+                240.0,
+                100.0,
+                160.0,
+                135.0,
+                155.0,
+                110.0,
+                80.0,
+                180.0,
+                180.0,
+                185.0,
+                240.0,
+                155.0,
+                130.0,
+                80.0,
+                55.0,
+                150.0,
+                185.0,
+                50.0,
+                195.0,
+                230.0,
+                125.0,
+                110.0,
+                170.0,
+                225.0,
+                65.0,
+                80.0
+            ],
+            "mean_reward": 144.16666666666666,
+            "std_reward": 56.15578529610482,
+            "median_reward": 147.5,
+            "iqm_reward": 145.9375,
+            "hns_mean": -0.0025207689441266146,
+            "hns_iqm": -0.00135628329058986,
+            "min_reward": 50.0,
+            "max_reward": 240.0,
+            "human": 1668.7,
+            "random": 148.0,
+            "Args": {
+                "game": "ALE/SpaceInvaders-v5",
+                "window": 4,
+                "frameskip": 4,
+                "dopamine_pooling": false,
+                "modifs": [],
+                "reward_function": "",
+                "game_mode": 0,
+                "difficulty": 0,
+                "episodes": 30,
+                "output": "spaceinvaders_2_random.json",
+                "name": "spaceinvaders_random"
+            }
+        }
+    }
+]

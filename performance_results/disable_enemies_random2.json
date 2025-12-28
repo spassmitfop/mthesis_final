@@ -1,0 +1,64 @@
+[
+    {
+        "ALE/Seaquest-v5_2025-08-03-14-52_random": {
+            "model": "random",
+            "episode_rewards": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0,
+            "std_reward": 0.0,
+            "median_reward": 0.0,
+            "iqm_reward": 0.0,
+            "hns_mean": -0.001629102826398135,
+            "hns_iqm": -0.001629102826398135,
+            "min_reward": 0.0,
+            "max_reward": 0.0,
+            "human": 42054.7,
+            "random": 68.4,
+            "Args": {
+                "game": "ALE/Seaquest-v5",
+                "window": 4,
+                "frameskip": 4,
+                "dopamine_pooling": false,
+                "modifs": [
+                    "disable_enemies"
+                ],
+                "reward_function": "",
+                "game_mode": 0,
+                "difficulty": 0,
+                "episodes": 30,
+                "output": "disable_enemies_2_random.json",
+                "name": "disable_enemies_random"
+            }
+        }
+    }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "ALE/Pong-v5_2025-08-03-14-53_random": {
+            "model": "random",
+            "episode_rewards": [
+                -21.0,
+                -21.0,
+                -19.0,
+                -20.0,
+                -21.0,
+                -21.0,
+                -21.0,
+                -20.0,
+                -21.0,
+                -20.0,
+                -21.0,
+                -20.0,
+                -19.0,
+                -20.0,
+                -20.0,
+                -21.0,
+                -21.0,
+                -21.0,
+                -21.0,
+                -21.0,
+                -21.0,
+                -18.0,
+                -21.0,
+                -21.0,
+                -19.0,
+                -20.0,
+                -20.0,
+                -20.0,
+                -21.0,
+                -21.0
+            ],
+            "mean_reward": -20.4,
+            "std_reward": 0.8000000000000003,
+            "median_reward": -21.0,
+            "iqm_reward": -20.625,
+            "hns_mean": 0.00849858356940512,
+            "hns_iqm": 0.0021246458923512546,
+            "min_reward": -21.0,
+            "max_reward": -18.0,
+            "human": 14.6,
+            "random": -20.7,
+            "Args": {
+                "game": "ALE/Pong-v5",
+                "window": 4,
+                "frameskip": 4,
+                "dopamine_pooling": false,
+                "modifs": [
+                    "lazy_enemy"
+                ],
+                "reward_function": "",
+                "game_mode": 0,
+                "difficulty": 0,
+                "episodes": 30,
+                "output": "lazy_enemy_2_random.json",
+                "name": "lazy_enemy_random"
+            }
+        }
+    }
+]

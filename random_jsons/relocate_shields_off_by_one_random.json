@@ -1,0 +1,64 @@
+[
+    {
+        "ALE/SpaceInvaders-v5_2025-08-05-10-43_random": {
+            "model": "random",
+            "episode_rewards": [
+                110.0,
+                110.0,
+                105.0,
+                215.0,
+                55.0,
+                90.0,
+                520.0,
+                260.0,
+                155.0,
+                35.0,
+                155.0,
+                125.0,
+                120.0,
+                105.0,
+                90.0,
+                65.0,
+                80.0,
+                215.0,
+                75.0,
+                255.0,
+                115.0,
+                140.0,
+                150.0,
+                35.0,
+                30.0,
+                105.0,
+                190.0,
+                55.0,
+                180.0,
+                155.0
+            ],
+            "mean_reward": 136.5,
+            "std_reward": 93.37335451472939,
+            "median_reward": 112.5,
+            "iqm_reward": 119.375,
+            "hns_mean": -0.007562306832379825,
+            "hns_iqm": -0.018823568093641087,
+            "min_reward": 30.0,
+            "max_reward": 520.0,
+            "human": 1668.7,
+            "random": 148.0,
+            "Args": {
+                "game": "ALE/SpaceInvaders-v5",
+                "window": 4,
+                "frameskip": 4,
+                "dopamine_pooling": false,
+                "modifs": [
+                    "relocate_shields_off_by_one"
+                ],
+                "reward_function": "",
+                "game_mode": 0,
+                "difficulty": 0,
+                "episodes": 30,
+                "output": "relocate_shields_off_by_one_2_random.json",
+                "name": "relocate_shields_off_by_one_random"
+            }
+        }
+    }
+]

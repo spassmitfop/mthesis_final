@@ -1,0 +1,64 @@
+[
+    {
+        "ALE/Freeway-v5_2025-08-05-10-43_random": {
+            "model": "random",
+            "episode_rewards": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                1.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                1.0,
+                0.0,
+                1.0,
+                1.0,
+                2.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mean_reward": 0.6333333333333333,
+            "std_reward": 0.5467073155618908,
+            "median_reward": 1.0,
+            "iqm_reward": 0.6875,
+            "hns_mean": 0.021396396396396393,
+            "hns_iqm": 0.02322635135135135,
+            "min_reward": 0.0,
+            "max_reward": 2.0,
+            "human": 29.6,
+            "random": 0.0,
+            "Args": {
+                "game": "ALE/Freeway-v5",
+                "window": 4,
+                "frameskip": 4,
+                "dopamine_pooling": false,
+                "modifs": [
+                    "stop_all_cars_edge"
+                ],
+                "reward_function": "",
+                "game_mode": 0,
+                "difficulty": 0,
+                "episodes": 30,
+                "output": "stop_all_cars_edge_2_random.json",
+                "name": "stop_all_cars_edge_random"
+            }
+        }
+    }
+]

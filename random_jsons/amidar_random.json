@@ -1,0 +1,62 @@
+[
+    {
+        "ALE/Amidar-v5_2025-08-05-10-44_random": {
+            "model": "random",
+            "episode_rewards": [
+                0.0,
+                4.0,
+                11.0,
+                0.0,
+                3.0,
+                1.0,
+                0.0,
+                10.0,
+                1.0,
+                1.0,
+                5.0,
+                3.0,
+                6.0,
+                4.0,
+                3.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                8.0,
+                5.0,
+                5.0,
+                0.0,
+                0.0,
+                0.0,
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 2.533333333333333,
+            "std_reward": 3.0739045022396008,
+            "median_reward": 1.0,
+            "iqm_reward": 1.625,
+            "hns_mean": -0.0019062068428935442,
+            "hns_iqm": -0.002436249051759351,
+            "min_reward": 0.0,
+            "max_reward": 11.0,
+            "human": 1719.5,
+            "random": 5.8,
+            "Args": {
+                "game": "ALE/Amidar-v5",
+                "window": 4,
+                "frameskip": 4,
+                "dopamine_pooling": false,
+                "modifs": [],
+                "reward_function": "",
+                "game_mode": 0,
+                "difficulty": 0,
+                "episodes": 30,
+                "output": "amidar_2_random.json",
+                "name": "amidar_random"
+            }
+        }
+    }
+]

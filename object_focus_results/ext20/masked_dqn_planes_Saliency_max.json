@@ -1,0 +1,1108 @@
+{
+    "masked_dqn_planes": {
+        "pong": {
+            "Pong_2025-11-24-05-26_saliency_agents\\rename_test\\pong\\1\\masked_dqn_planes.cleanrl_model": {
+                "model": "saliency_agents\\rename_test\\pong\\1\\masked_dqn_planes.cleanrl_model",
+                "episode_rewards": [
+                    19.0,
+                    20.0,
+                    15.0
+                ],
+                "mean_reward": 18.0,
+                "std_reward": 2.160246899469287,
+                "median_reward": 19.0,
+                "iqm_reward": 18.0,
+                "hns_mean": 1.096317280453258,
+                "hns_iqm": 1.096317280453258,
+                "min_reward": 15.0,
+                "max_reward": 20.0,
+                "human": 14.6,
+                "random": -20.7,
+                "Args": {
+                    "game": "Pong",
+                    "window": 4,
+                    "frameskip": 4,
+                    "dopamine_pooling": false,
+                    "modifs": [],
+                    "reward_function": "",
+                    "agents": [
+                        "saliency_agents\\rename_test\\pong\\1\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\pong\\2\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\pong\\3\\masked_dqn_planes.cleanrl_model"
+                    ],
+                    "agents_dqn": null,
+                    "agents_planes": null,
+                    "agents_parallel_planes": null,
+                    "agents_binary_mask": null,
+                    "game_mode": 0,
+                    "difficulty": 0,
+                    "episodes": 3,
+                    "output": "copy_saliency_jsons_ext20/masked_dqn_planes_Saliency_max.json",
+                    "architecture": "PPO",
+                    "cuda": false,
+                    "name": "masked_dqn_planes",
+                    "masked_wrapper": "masked_dqn_planes",
+                    "use_distances": false,
+                    "use_direction": false,
+                    "use_wh": false,
+                    "reshape": true,
+                    "multiply_player_info": false,
+                    "use_angle": false,
+                    "use_overlap": false,
+                    "use_centerpoints": false,
+                    "scale": 1.0,
+                    "scale_w": 1.0,
+                    "scale_h": 1.0,
+                    "probability": 0.001,
+                    "seed": 1,
+                    "extension": 20,
+                    "keep_ratio": false,
+                    "use_hud": false,
+                    "captum_algo": "Saliency",
+                    "aggregation_method": "max",
+                    "use_object_xy": true
+                },
+                "metrics": {
+                    "corr_mask_value": [
+                        0.38971660660858615,
+                        0.32130110041902377,
+                        0.4101150863096004
+                    ],
+                    "corr_mask_policy": [
+                        0.4805024731266523,
+                        0.37709702604501844,
+                        0.46101107402191477
+                    ],
+                    "corr_mask_value2": [
+                        0.34517468164492804,
+                        0.2680810004763853,
+                        0.3769792523480748
+                    ],
+                    "corr_mask_policy2": [
+                        0.49269833897051785,
+                        0.36171312581311893,
+                        0.47384614455524515
+                    ]
+                }
+            },
+            "Pong_2025-11-24-05-29_saliency_agents\\rename_test\\pong\\2\\masked_dqn_planes.cleanrl_model": {
+                "model": "saliency_agents\\rename_test\\pong\\2\\masked_dqn_planes.cleanrl_model",
+                "episode_rewards": [
+                    19.0,
+                    17.0,
+                    20.0
+                ],
+                "mean_reward": 18.666666666666668,
+                "std_reward": 1.247219128924647,
+                "median_reward": 19.0,
+                "iqm_reward": 18.666666666666668,
+                "hns_mean": 1.1152030217186026,
+                "hns_iqm": 1.1152030217186026,
+                "min_reward": 17.0,
+                "max_reward": 20.0,
+                "human": 14.6,
+                "random": -20.7,
+                "Args": {
+                    "game": "Pong",
+                    "window": 4,
+                    "frameskip": 4,
+                    "dopamine_pooling": false,
+                    "modifs": [],
+                    "reward_function": "",
+                    "agents": [
+                        "saliency_agents\\rename_test\\pong\\1\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\pong\\2\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\pong\\3\\masked_dqn_planes.cleanrl_model"
+                    ],
+                    "agents_dqn": null,
+                    "agents_planes": null,
+                    "agents_parallel_planes": null,
+                    "agents_binary_mask": null,
+                    "game_mode": 0,
+                    "difficulty": 0,
+                    "episodes": 3,
+                    "output": "copy_saliency_jsons_ext20/masked_dqn_planes_Saliency_max.json",
+                    "architecture": "PPO",
+                    "cuda": false,
+                    "name": "masked_dqn_planes",
+                    "masked_wrapper": "masked_dqn_planes",
+                    "use_distances": false,
+                    "use_direction": false,
+                    "use_wh": false,
+                    "reshape": true,
+                    "multiply_player_info": false,
+                    "use_angle": false,
+                    "use_overlap": false,
+                    "use_centerpoints": false,
+                    "scale": 1.0,
+                    "scale_w": 1.0,
+                    "scale_h": 1.0,
+                    "probability": 0.001,
+                    "seed": 1,
+                    "extension": 20,
+                    "keep_ratio": false,
+                    "use_hud": false,
+                    "captum_algo": "Saliency",
+                    "aggregation_method": "max",
+                    "use_object_xy": true
+                },
+                "metrics": {
+                    "corr_mask_value": [
+                        0.38971660660858615,
+                        0.32130110041902377,
+                        0.4101150863096004
+                    ],
+                    "corr_mask_policy": [
+                        0.4805024731266523,
+                        0.37709702604501844,
+                        0.46101107402191477
+                    ],
+                    "corr_mask_value2": [
+                        0.34517468164492804,
+                        0.2680810004763853,
+                        0.3769792523480748
+                    ],
+                    "corr_mask_policy2": [
+                        0.49269833897051785,
+                        0.36171312581311893,
+                        0.47384614455524515
+                    ]
+                }
+            },
+            "Pong_2025-11-24-05-32_saliency_agents\\rename_test\\pong\\3\\masked_dqn_planes.cleanrl_model": {
+                "model": "saliency_agents\\rename_test\\pong\\3\\masked_dqn_planes.cleanrl_model",
+                "episode_rewards": [
+                    20.0,
+                    19.0,
+                    19.0
+                ],
+                "mean_reward": 19.333333333333332,
+                "std_reward": 0.4714045207910317,
+                "median_reward": 19.0,
+                "iqm_reward": 19.333333333333332,
+                "hns_mean": 1.1340887629839471,
+                "hns_iqm": 1.1340887629839471,
+                "min_reward": 19.0,
+                "max_reward": 20.0,
+                "human": 14.6,
+                "random": -20.7,
+                "Args": {
+                    "game": "Pong",
+                    "window": 4,
+                    "frameskip": 4,
+                    "dopamine_pooling": false,
+                    "modifs": [],
+                    "reward_function": "",
+                    "agents": [
+                        "saliency_agents\\rename_test\\pong\\1\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\pong\\2\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\pong\\3\\masked_dqn_planes.cleanrl_model"
+                    ],
+                    "agents_dqn": null,
+                    "agents_planes": null,
+                    "agents_parallel_planes": null,
+                    "agents_binary_mask": null,
+                    "game_mode": 0,
+                    "difficulty": 0,
+                    "episodes": 3,
+                    "output": "copy_saliency_jsons_ext20/masked_dqn_planes_Saliency_max.json",
+                    "architecture": "PPO",
+                    "cuda": false,
+                    "name": "masked_dqn_planes",
+                    "masked_wrapper": "masked_dqn_planes",
+                    "use_distances": false,
+                    "use_direction": false,
+                    "use_wh": false,
+                    "reshape": true,
+                    "multiply_player_info": false,
+                    "use_angle": false,
+                    "use_overlap": false,
+                    "use_centerpoints": false,
+                    "scale": 1.0,
+                    "scale_w": 1.0,
+                    "scale_h": 1.0,
+                    "probability": 0.001,
+                    "seed": 1,
+                    "extension": 20,
+                    "keep_ratio": false,
+                    "use_hud": false,
+                    "captum_algo": "Saliency",
+                    "aggregation_method": "max",
+                    "use_object_xy": true
+                },
+                "metrics": {
+                    "corr_mask_value": [
+                        0.38971660660858615,
+                        0.32130110041902377,
+                        0.4101150863096004
+                    ],
+                    "corr_mask_policy": [
+                        0.4805024731266523,
+                        0.37709702604501844,
+                        0.46101107402191477
+                    ],
+                    "corr_mask_value2": [
+                        0.34517468164492804,
+                        0.2680810004763853,
+                        0.3769792523480748
+                    ],
+                    "corr_mask_policy2": [
+                        0.49269833897051785,
+                        0.36171312581311893,
+                        0.47384614455524515
+                    ]
+                }
+            },
+            "metrics": {
+                "corr_mask_value": [
+                    0.38971660660858615,
+                    0.32130110041902377,
+                    0.4101150863096004
+                ],
+                "corr_mask_policy": [
+                    0.4805024731266523,
+                    0.37709702604501844,
+                    0.46101107402191477
+                ],
+                "corr_mask_value2": [
+                    0.34517468164492804,
+                    0.2680810004763853,
+                    0.3769792523480748
+                ],
+                "corr_mask_policy2": [
+                    0.49269833897051785,
+                    0.36171312581311893,
+                    0.47384614455524515
+                ]
+            }
+        },
+        "seaquest": {
+            "Seaquest_2025-11-24-09-09_saliency_agents\\rename_test\\seaquest\\1\\masked_dqn_planes.cleanrl_model": {
+                "model": "saliency_agents\\rename_test\\seaquest\\1\\masked_dqn_planes.cleanrl_model",
+                "episode_rewards": [
+                    1840.0,
+                    1800.0,
+                    1840.0
+                ],
+                "mean_reward": 1826.6666666666667,
+                "std_reward": 18.856180831641268,
+                "median_reward": 1840.0,
+                "iqm_reward": 1826.6666666666667,
+                "hns_mean": 0.04187715199164172,
+                "hns_iqm": 0.04187715199164172,
+                "min_reward": 1800.0,
+                "max_reward": 1840.0,
+                "human": 42054.7,
+                "random": 68.4,
+                "Args": {
+                    "game": "Seaquest",
+                    "window": 4,
+                    "frameskip": 4,
+                    "dopamine_pooling": false,
+                    "modifs": [],
+                    "reward_function": "",
+                    "agents": [
+                        "saliency_agents\\rename_test\\seaquest\\1\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\seaquest\\2\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\seaquest\\3\\masked_dqn_planes.cleanrl_model"
+                    ],
+                    "agents_dqn": null,
+                    "agents_planes": null,
+                    "agents_parallel_planes": null,
+                    "agents_binary_mask": null,
+                    "game_mode": 0,
+                    "difficulty": 0,
+                    "episodes": 3,
+                    "output": "copy_saliency_jsons_ext20/masked_dqn_planes_Saliency_max.json",
+                    "architecture": "PPO",
+                    "cuda": false,
+                    "name": "masked_dqn_planes",
+                    "masked_wrapper": "masked_dqn_planes",
+                    "use_distances": false,
+                    "use_direction": false,
+                    "use_wh": false,
+                    "reshape": true,
+                    "multiply_player_info": false,
+                    "use_angle": false,
+                    "use_overlap": false,
+                    "use_centerpoints": false,
+                    "scale": 1.0,
+                    "scale_w": 1.0,
+                    "scale_h": 1.0,
+                    "probability": 0.001,
+                    "seed": 1,
+                    "extension": 20,
+                    "keep_ratio": false,
+                    "use_hud": false,
+                    "captum_algo": "Saliency",
+                    "aggregation_method": "max",
+                    "use_object_xy": true
+                },
+                "metrics": {
+                    "corr_mask_value": [
+                        0.17040932817318757,
+                        0.23434229483222008,
+                        0.2779921706261112
+                    ],
+                    "corr_mask_policy": [
+                        0.15285298919642845,
+                        0.1834133662933056,
+                        0.20920926014505986
+                    ],
+                    "corr_mask_value2": [
+                        0.195023842684197,
+                        0.19090699375239417,
+                        0.2683576351751836
+                    ],
+                    "corr_mask_policy2": [
+                        0.21585748671932992,
+                        0.24271948870390317,
+                        0.2554857353820067
+                    ]
+                }
+            },
+            "Seaquest_2025-11-24-09-12_saliency_agents\\rename_test\\seaquest\\2\\masked_dqn_planes.cleanrl_model": {
+                "model": "saliency_agents\\rename_test\\seaquest\\2\\masked_dqn_planes.cleanrl_model",
+                "episode_rewards": [
+                    1900.0,
+                    1840.0,
+                    1880.0
+                ],
+                "mean_reward": 1873.3333333333333,
+                "std_reward": 24.944382578492945,
+                "median_reward": 1880.0,
+                "iqm_reward": 1873.3333333333333,
+                "hns_mean": 0.042988625654876315,
+                "hns_iqm": 0.042988625654876315,
+                "min_reward": 1840.0,
+                "max_reward": 1900.0,
+                "human": 42054.7,
+                "random": 68.4,
+                "Args": {
+                    "game": "Seaquest",
+                    "window": 4,
+                    "frameskip": 4,
+                    "dopamine_pooling": false,
+                    "modifs": [],
+                    "reward_function": "",
+                    "agents": [
+                        "saliency_agents\\rename_test\\seaquest\\1\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\seaquest\\2\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\seaquest\\3\\masked_dqn_planes.cleanrl_model"
+                    ],
+                    "agents_dqn": null,
+                    "agents_planes": null,
+                    "agents_parallel_planes": null,
+                    "agents_binary_mask": null,
+                    "game_mode": 0,
+                    "difficulty": 0,
+                    "episodes": 3,
+                    "output": "copy_saliency_jsons_ext20/masked_dqn_planes_Saliency_max.json",
+                    "architecture": "PPO",
+                    "cuda": false,
+                    "name": "masked_dqn_planes",
+                    "masked_wrapper": "masked_dqn_planes",
+                    "use_distances": false,
+                    "use_direction": false,
+                    "use_wh": false,
+                    "reshape": true,
+                    "multiply_player_info": false,
+                    "use_angle": false,
+                    "use_overlap": false,
+                    "use_centerpoints": false,
+                    "scale": 1.0,
+                    "scale_w": 1.0,
+                    "scale_h": 1.0,
+                    "probability": 0.001,
+                    "seed": 1,
+                    "extension": 20,
+                    "keep_ratio": false,
+                    "use_hud": false,
+                    "captum_algo": "Saliency",
+                    "aggregation_method": "max",
+                    "use_object_xy": true
+                },
+                "metrics": {
+                    "corr_mask_value": [
+                        0.17040932817318757,
+                        0.23434229483222008,
+                        0.2779921706261112
+                    ],
+                    "corr_mask_policy": [
+                        0.15285298919642845,
+                        0.1834133662933056,
+                        0.20920926014505986
+                    ],
+                    "corr_mask_value2": [
+                        0.195023842684197,
+                        0.19090699375239417,
+                        0.2683576351751836
+                    ],
+                    "corr_mask_policy2": [
+                        0.21585748671932992,
+                        0.24271948870390317,
+                        0.2554857353820067
+                    ]
+                }
+            },
+            "Seaquest_2025-11-24-09-15_saliency_agents\\rename_test\\seaquest\\3\\masked_dqn_planes.cleanrl_model": {
+                "model": "saliency_agents\\rename_test\\seaquest\\3\\masked_dqn_planes.cleanrl_model",
+                "episode_rewards": [
+                    1860.0,
+                    1820.0,
+                    1840.0
+                ],
+                "mean_reward": 1840.0,
+                "std_reward": 16.32993161855452,
+                "median_reward": 1840.0,
+                "iqm_reward": 1840.0,
+                "hns_mean": 0.042194715895423035,
+                "hns_iqm": 0.042194715895423035,
+                "min_reward": 1820.0,
+                "max_reward": 1860.0,
+                "human": 42054.7,
+                "random": 68.4,
+                "Args": {
+                    "game": "Seaquest",
+                    "window": 4,
+                    "frameskip": 4,
+                    "dopamine_pooling": false,
+                    "modifs": [],
+                    "reward_function": "",
+                    "agents": [
+                        "saliency_agents\\rename_test\\seaquest\\1\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\seaquest\\2\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\seaquest\\3\\masked_dqn_planes.cleanrl_model"
+                    ],
+                    "agents_dqn": null,
+                    "agents_planes": null,
+                    "agents_parallel_planes": null,
+                    "agents_binary_mask": null,
+                    "game_mode": 0,
+                    "difficulty": 0,
+                    "episodes": 3,
+                    "output": "copy_saliency_jsons_ext20/masked_dqn_planes_Saliency_max.json",
+                    "architecture": "PPO",
+                    "cuda": false,
+                    "name": "masked_dqn_planes",
+                    "masked_wrapper": "masked_dqn_planes",
+                    "use_distances": false,
+                    "use_direction": false,
+                    "use_wh": false,
+                    "reshape": true,
+                    "multiply_player_info": false,
+                    "use_angle": false,
+                    "use_overlap": false,
+                    "use_centerpoints": false,
+                    "scale": 1.0,
+                    "scale_w": 1.0,
+                    "scale_h": 1.0,
+                    "probability": 0.001,
+                    "seed": 1,
+                    "extension": 20,
+                    "keep_ratio": false,
+                    "use_hud": false,
+                    "captum_algo": "Saliency",
+                    "aggregation_method": "max",
+                    "use_object_xy": true
+                },
+                "metrics": {
+                    "corr_mask_value": [
+                        0.17040932817318757,
+                        0.23434229483222008,
+                        0.2779921706261112
+                    ],
+                    "corr_mask_policy": [
+                        0.15285298919642845,
+                        0.1834133662933056,
+                        0.20920926014505986
+                    ],
+                    "corr_mask_value2": [
+                        0.195023842684197,
+                        0.19090699375239417,
+                        0.2683576351751836
+                    ],
+                    "corr_mask_policy2": [
+                        0.21585748671932992,
+                        0.24271948870390317,
+                        0.2554857353820067
+                    ]
+                }
+            },
+            "metrics": {
+                "corr_mask_value": [
+                    0.17040932817318757,
+                    0.23434229483222008,
+                    0.2779921706261112
+                ],
+                "corr_mask_policy": [
+                    0.15285298919642845,
+                    0.1834133662933056,
+                    0.20920926014505986
+                ],
+                "corr_mask_value2": [
+                    0.195023842684197,
+                    0.19090699375239417,
+                    0.2683576351751836
+                ],
+                "corr_mask_policy2": [
+                    0.21585748671932992,
+                    0.24271948870390317,
+                    0.2554857353820067
+                ]
+            }
+        },
+        "spaceinvaders": {
+            "SpaceInvaders_2025-11-24-12-02_saliency_agents\\rename_test\\spaceinvaders\\1\\masked_dqn_planes.cleanrl_model": {
+                "model": "saliency_agents\\rename_test\\spaceinvaders\\1\\masked_dqn_planes.cleanrl_model",
+                "episode_rewards": [
+                    1825.0,
+                    1630.0,
+                    1830.0
+                ],
+                "mean_reward": 1761.6666666666667,
+                "std_reward": 93.12476696465995,
+                "median_reward": 1825.0,
+                "iqm_reward": 1761.6666666666667,
+                "hns_mean": 1.0611341268275576,
+                "hns_iqm": 1.0611341268275576,
+                "min_reward": 1630.0,
+                "max_reward": 1830.0,
+                "human": 1668.7,
+                "random": 148.0,
+                "Args": {
+                    "game": "SpaceInvaders",
+                    "window": 4,
+                    "frameskip": 4,
+                    "dopamine_pooling": false,
+                    "modifs": [],
+                    "reward_function": "",
+                    "agents": [
+                        "saliency_agents\\rename_test\\spaceinvaders\\1\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\spaceinvaders\\2\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\spaceinvaders\\3\\masked_dqn_planes.cleanrl_model"
+                    ],
+                    "agents_dqn": null,
+                    "agents_planes": null,
+                    "agents_parallel_planes": null,
+                    "agents_binary_mask": null,
+                    "game_mode": 0,
+                    "difficulty": 0,
+                    "episodes": 3,
+                    "output": "copy_saliency_jsons_ext20/masked_dqn_planes_Saliency_max.json",
+                    "architecture": "PPO",
+                    "cuda": false,
+                    "name": "masked_dqn_planes",
+                    "masked_wrapper": "masked_dqn_planes",
+                    "use_distances": false,
+                    "use_direction": false,
+                    "use_wh": false,
+                    "reshape": true,
+                    "multiply_player_info": false,
+                    "use_angle": false,
+                    "use_overlap": false,
+                    "use_centerpoints": false,
+                    "scale": 1.0,
+                    "scale_w": 1.0,
+                    "scale_h": 1.0,
+                    "probability": 0.001,
+                    "seed": 1,
+                    "extension": 20,
+                    "keep_ratio": false,
+                    "use_hud": false,
+                    "captum_algo": "Saliency",
+                    "aggregation_method": "max",
+                    "use_object_xy": true
+                },
+                "metrics": {
+                    "corr_mask_value": [
+                        0.36449525325699383,
+                        0.4153859997252366,
+                        0.39009417984069567
+                    ],
+                    "corr_mask_policy": [
+                        0.4070838936117339,
+                        0.407276979007346,
+                        0.4087558567704356
+                    ],
+                    "corr_mask_value2": [
+                        0.4422708937897576,
+                        0.5007564439913451,
+                        0.46076535867483637
+                    ],
+                    "corr_mask_policy2": [
+                        0.5612571638360632,
+                        0.5917858232285741,
+                        0.5560141934428506
+                    ]
+                }
+            },
+            "SpaceInvaders_2025-11-24-12-05_saliency_agents\\rename_test\\spaceinvaders\\2\\masked_dqn_planes.cleanrl_model": {
+                "model": "saliency_agents\\rename_test\\spaceinvaders\\2\\masked_dqn_planes.cleanrl_model",
+                "episode_rewards": [
+                    2235.0,
+                    2040.0,
+                    1620.0
+                ],
+                "mean_reward": 1965.0,
+                "std_reward": 256.61254840712684,
+                "median_reward": 2040.0,
+                "iqm_reward": 1965.0,
+                "hns_mean": 1.1948444795160122,
+                "hns_iqm": 1.1948444795160122,
+                "min_reward": 1620.0,
+                "max_reward": 2235.0,
+                "human": 1668.7,
+                "random": 148.0,
+                "Args": {
+                    "game": "SpaceInvaders",
+                    "window": 4,
+                    "frameskip": 4,
+                    "dopamine_pooling": false,
+                    "modifs": [],
+                    "reward_function": "",
+                    "agents": [
+                        "saliency_agents\\rename_test\\spaceinvaders\\1\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\spaceinvaders\\2\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\spaceinvaders\\3\\masked_dqn_planes.cleanrl_model"
+                    ],
+                    "agents_dqn": null,
+                    "agents_planes": null,
+                    "agents_parallel_planes": null,
+                    "agents_binary_mask": null,
+                    "game_mode": 0,
+                    "difficulty": 0,
+                    "episodes": 3,
+                    "output": "copy_saliency_jsons_ext20/masked_dqn_planes_Saliency_max.json",
+                    "architecture": "PPO",
+                    "cuda": false,
+                    "name": "masked_dqn_planes",
+                    "masked_wrapper": "masked_dqn_planes",
+                    "use_distances": false,
+                    "use_direction": false,
+                    "use_wh": false,
+                    "reshape": true,
+                    "multiply_player_info": false,
+                    "use_angle": false,
+                    "use_overlap": false,
+                    "use_centerpoints": false,
+                    "scale": 1.0,
+                    "scale_w": 1.0,
+                    "scale_h": 1.0,
+                    "probability": 0.001,
+                    "seed": 1,
+                    "extension": 20,
+                    "keep_ratio": false,
+                    "use_hud": false,
+                    "captum_algo": "Saliency",
+                    "aggregation_method": "max",
+                    "use_object_xy": true
+                },
+                "metrics": {
+                    "corr_mask_value": [
+                        0.36449525325699383,
+                        0.4153859997252366,
+                        0.39009417984069567
+                    ],
+                    "corr_mask_policy": [
+                        0.4070838936117339,
+                        0.407276979007346,
+                        0.4087558567704356
+                    ],
+                    "corr_mask_value2": [
+                        0.4422708937897576,
+                        0.5007564439913451,
+                        0.46076535867483637
+                    ],
+                    "corr_mask_policy2": [
+                        0.5612571638360632,
+                        0.5917858232285741,
+                        0.5560141934428506
+                    ]
+                }
+            },
+            "SpaceInvaders_2025-11-24-12-07_saliency_agents\\rename_test\\spaceinvaders\\3\\masked_dqn_planes.cleanrl_model": {
+                "model": "saliency_agents\\rename_test\\spaceinvaders\\3\\masked_dqn_planes.cleanrl_model",
+                "episode_rewards": [
+                    1560.0,
+                    800.0,
+                    2230.0
+                ],
+                "mean_reward": 1530.0,
+                "std_reward": 584.1803374529707,
+                "median_reward": 1560.0,
+                "iqm_reward": 1530.0,
+                "hns_mean": 0.9087920036825146,
+                "hns_iqm": 0.9087920036825146,
+                "min_reward": 800.0,
+                "max_reward": 2230.0,
+                "human": 1668.7,
+                "random": 148.0,
+                "Args": {
+                    "game": "SpaceInvaders",
+                    "window": 4,
+                    "frameskip": 4,
+                    "dopamine_pooling": false,
+                    "modifs": [],
+                    "reward_function": "",
+                    "agents": [
+                        "saliency_agents\\rename_test\\spaceinvaders\\1\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\spaceinvaders\\2\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\spaceinvaders\\3\\masked_dqn_planes.cleanrl_model"
+                    ],
+                    "agents_dqn": null,
+                    "agents_planes": null,
+                    "agents_parallel_planes": null,
+                    "agents_binary_mask": null,
+                    "game_mode": 0,
+                    "difficulty": 0,
+                    "episodes": 3,
+                    "output": "copy_saliency_jsons_ext20/masked_dqn_planes_Saliency_max.json",
+                    "architecture": "PPO",
+                    "cuda": false,
+                    "name": "masked_dqn_planes",
+                    "masked_wrapper": "masked_dqn_planes",
+                    "use_distances": false,
+                    "use_direction": false,
+                    "use_wh": false,
+                    "reshape": true,
+                    "multiply_player_info": false,
+                    "use_angle": false,
+                    "use_overlap": false,
+                    "use_centerpoints": false,
+                    "scale": 1.0,
+                    "scale_w": 1.0,
+                    "scale_h": 1.0,
+                    "probability": 0.001,
+                    "seed": 1,
+                    "extension": 20,
+                    "keep_ratio": false,
+                    "use_hud": false,
+                    "captum_algo": "Saliency",
+                    "aggregation_method": "max",
+                    "use_object_xy": true
+                },
+                "metrics": {
+                    "corr_mask_value": [
+                        0.36449525325699383,
+                        0.4153859997252366,
+                        0.39009417984069567
+                    ],
+                    "corr_mask_policy": [
+                        0.4070838936117339,
+                        0.407276979007346,
+                        0.4087558567704356
+                    ],
+                    "corr_mask_value2": [
+                        0.4422708937897576,
+                        0.5007564439913451,
+                        0.46076535867483637
+                    ],
+                    "corr_mask_policy2": [
+                        0.5612571638360632,
+                        0.5917858232285741,
+                        0.5560141934428506
+                    ]
+                }
+            },
+            "metrics": {
+                "corr_mask_value": [
+                    0.36449525325699383,
+                    0.4153859997252366,
+                    0.39009417984069567
+                ],
+                "corr_mask_policy": [
+                    0.4070838936117339,
+                    0.407276979007346,
+                    0.4087558567704356
+                ],
+                "corr_mask_value2": [
+                    0.4422708937897576,
+                    0.5007564439913451,
+                    0.46076535867483637
+                ],
+                "corr_mask_policy2": [
+                    0.5612571638360632,
+                    0.5917858232285741,
+                    0.5560141934428506
+                ]
+            }
+        },
+        "amidar": {
+            "Amidar_2025-11-24-16-44_saliency_agents\\rename_test\\amidar\\1\\masked_dqn_planes.cleanrl_model": {
+                "model": "saliency_agents\\rename_test\\amidar\\1\\masked_dqn_planes.cleanrl_model",
+                "episode_rewards": [
+                    533.0,
+                    566.0,
+                    582.0
+                ],
+                "mean_reward": 560.3333333333334,
+                "std_reward": 20.401524997465806,
+                "median_reward": 566.0,
+                "iqm_reward": 560.3333333333334,
+                "hns_mean": 0.323588337126296,
+                "hns_iqm": 0.323588337126296,
+                "min_reward": 533.0,
+                "max_reward": 582.0,
+                "human": 1719.5,
+                "random": 5.8,
+                "Args": {
+                    "game": "Amidar",
+                    "window": 4,
+                    "frameskip": 4,
+                    "dopamine_pooling": false,
+                    "modifs": [],
+                    "reward_function": "",
+                    "agents": [
+                        "saliency_agents\\rename_test\\amidar\\1\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\amidar\\2\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\amidar\\3\\masked_dqn_planes.cleanrl_model"
+                    ],
+                    "agents_dqn": null,
+                    "agents_planes": null,
+                    "agents_parallel_planes": null,
+                    "agents_binary_mask": null,
+                    "game_mode": 0,
+                    "difficulty": 0,
+                    "episodes": 3,
+                    "output": "copy_saliency_jsons_ext20/masked_dqn_planes_Saliency_max.json",
+                    "architecture": "PPO",
+                    "cuda": false,
+                    "name": "masked_dqn_planes",
+                    "masked_wrapper": "masked_dqn_planes",
+                    "use_distances": false,
+                    "use_direction": false,
+                    "use_wh": false,
+                    "reshape": true,
+                    "multiply_player_info": false,
+                    "use_angle": false,
+                    "use_overlap": false,
+                    "use_centerpoints": false,
+                    "scale": 1.0,
+                    "scale_w": 1.0,
+                    "scale_h": 1.0,
+                    "probability": 0.001,
+                    "seed": 1,
+                    "extension": 20,
+                    "keep_ratio": false,
+                    "use_hud": false,
+                    "captum_algo": "Saliency",
+                    "aggregation_method": "max",
+                    "use_object_xy": true
+                },
+                "metrics": {
+                    "corr_mask_value": [
+                        0.3594693767497615,
+                        0.41044217379493264,
+                        0.4189875531701364
+                    ],
+                    "corr_mask_policy": [
+                        0.38942433598041026,
+                        0.40993840278226656,
+                        0.4377660925914031
+                    ],
+                    "corr_mask_value2": [
+                        0.37613845609805563,
+                        0.4275853726046617,
+                        0.43692390281138566
+                    ],
+                    "corr_mask_policy2": [
+                        0.4074406581008541,
+                        0.4293779426481689,
+                        0.46465888910338143
+                    ]
+                }
+            },
+            "Amidar_2025-11-24-16-52_saliency_agents\\rename_test\\amidar\\2\\masked_dqn_planes.cleanrl_model": {
+                "model": "saliency_agents\\rename_test\\amidar\\2\\masked_dqn_planes.cleanrl_model",
+                "episode_rewards": [
+                    578.0,
+                    579.0,
+                    529.0
+                ],
+                "mean_reward": 562.0,
+                "std_reward": 23.338094752285727,
+                "median_reward": 578.0,
+                "iqm_reward": 562.0,
+                "hns_mean": 0.3245608916379763,
+                "hns_iqm": 0.3245608916379763,
+                "min_reward": 529.0,
+                "max_reward": 579.0,
+                "human": 1719.5,
+                "random": 5.8,
+                "Args": {
+                    "game": "Amidar",
+                    "window": 4,
+                    "frameskip": 4,
+                    "dopamine_pooling": false,
+                    "modifs": [],
+                    "reward_function": "",
+                    "agents": [
+                        "saliency_agents\\rename_test\\amidar\\1\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\amidar\\2\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\amidar\\3\\masked_dqn_planes.cleanrl_model"
+                    ],
+                    "agents_dqn": null,
+                    "agents_planes": null,
+                    "agents_parallel_planes": null,
+                    "agents_binary_mask": null,
+                    "game_mode": 0,
+                    "difficulty": 0,
+                    "episodes": 3,
+                    "output": "copy_saliency_jsons_ext20/masked_dqn_planes_Saliency_max.json",
+                    "architecture": "PPO",
+                    "cuda": false,
+                    "name": "masked_dqn_planes",
+                    "masked_wrapper": "masked_dqn_planes",
+                    "use_distances": false,
+                    "use_direction": false,
+                    "use_wh": false,
+                    "reshape": true,
+                    "multiply_player_info": false,
+                    "use_angle": false,
+                    "use_overlap": false,
+                    "use_centerpoints": false,
+                    "scale": 1.0,
+                    "scale_w": 1.0,
+                    "scale_h": 1.0,
+                    "probability": 0.001,
+                    "seed": 1,
+                    "extension": 20,
+                    "keep_ratio": false,
+                    "use_hud": false,
+                    "captum_algo": "Saliency",
+                    "aggregation_method": "max",
+                    "use_object_xy": true
+                },
+                "metrics": {
+                    "corr_mask_value": [
+                        0.3594693767497615,
+                        0.41044217379493264,
+                        0.4189875531701364
+                    ],
+                    "corr_mask_policy": [
+                        0.38942433598041026,
+                        0.40993840278226656,
+                        0.4377660925914031
+                    ],
+                    "corr_mask_value2": [
+                        0.37613845609805563,
+                        0.4275853726046617,
+                        0.43692390281138566
+                    ],
+                    "corr_mask_policy2": [
+                        0.4074406581008541,
+                        0.4293779426481689,
+                        0.46465888910338143
+                    ]
+                }
+            },
+            "Amidar_2025-11-24-16-56_saliency_agents\\rename_test\\amidar\\3\\masked_dqn_planes.cleanrl_model": {
+                "model": "saliency_agents\\rename_test\\amidar\\3\\masked_dqn_planes.cleanrl_model",
+                "episode_rewards": [
+                    329.0,
+                    429.0,
+                    429.0
+                ],
+                "mean_reward": 395.6666666666667,
+                "std_reward": 47.14045207910317,
+                "median_reward": 429.0,
+                "iqm_reward": 395.6666666666667,
+                "hns_mean": 0.2274999513722744,
+                "hns_iqm": 0.2274999513722744,
+                "min_reward": 329.0,
+                "max_reward": 429.0,
+                "human": 1719.5,
+                "random": 5.8,
+                "Args": {
+                    "game": "Amidar",
+                    "window": 4,
+                    "frameskip": 4,
+                    "dopamine_pooling": false,
+                    "modifs": [],
+                    "reward_function": "",
+                    "agents": [
+                        "saliency_agents\\rename_test\\amidar\\1\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\amidar\\2\\masked_dqn_planes.cleanrl_model",
+                        "saliency_agents\\rename_test\\amidar\\3\\masked_dqn_planes.cleanrl_model"
+                    ],
+                    "agents_dqn": null,
+                    "agents_planes": null,
+                    "agents_parallel_planes": null,
+                    "agents_binary_mask": null,
+                    "game_mode": 0,
+                    "difficulty": 0,
+                    "episodes": 3,
+                    "output": "copy_saliency_jsons_ext20/masked_dqn_planes_Saliency_max.json",
+                    "architecture": "PPO",
+                    "cuda": false,
+                    "name": "masked_dqn_planes",
+                    "masked_wrapper": "masked_dqn_planes",
+                    "use_distances": false,
+                    "use_direction": false,
+                    "use_wh": false,
+                    "reshape": true,
+                    "multiply_player_info": false,
+                    "use_angle": false,
+                    "use_overlap": false,
+                    "use_centerpoints": false,
+                    "scale": 1.0,
+                    "scale_w": 1.0,
+                    "scale_h": 1.0,
+                    "probability": 0.001,
+                    "seed": 1,
+                    "extension": 20,
+                    "keep_ratio": false,
+                    "use_hud": false,
+                    "captum_algo": "Saliency",
+                    "aggregation_method": "max",
+                    "use_object_xy": true
+                },
+                "metrics": {
+                    "corr_mask_value": [
+                        0.3594693767497615,
+                        0.41044217379493264,
+                        0.4189875531701364
+                    ],
+                    "corr_mask_policy": [
+                        0.38942433598041026,
+                        0.40993840278226656,
+                        0.4377660925914031
+                    ],
+                    "corr_mask_value2": [
+                        0.37613845609805563,
+                        0.4275853726046617,
+                        0.43692390281138566
+                    ],
+                    "corr_mask_policy2": [
+                        0.4074406581008541,
+                        0.4293779426481689,
+                        0.46465888910338143
+                    ]
+                }
+            },
+            "metrics": {
+                "corr_mask_value": [
+                    0.3594693767497615,
+                    0.41044217379493264,
+                    0.4189875531701364
+                ],
+                "corr_mask_policy": [
+                    0.38942433598041026,
+                    0.40993840278226656,
+                    0.4377660925914031
+                ],
+                "corr_mask_value2": [
+                    0.37613845609805563,
+                    0.4275853726046617,
+                    0.43692390281138566
+                ],
+                "corr_mask_policy2": [
+                    0.4074406581008541,
+                    0.4293779426481689,
+                    0.46465888910338143
+                ]
+            }
+        }
+    }
+}
