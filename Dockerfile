@@ -6,10 +6,13 @@ RUN apt update && apt install -y nano
 RUN apt-get update && apt-get install -y dos2unix
 
 COPY requirements.txt .
-
+COPY ./python_scripts /python_scripts
+COPY ./ocatari_wrappers /ocatari_wrappers
+COPY ./random_jsons /random_jsons
+COPY ./reference_scores /reference_scores
 COPY ./cleanrl /cleanrl
-
 COPY ./submodules /submodules
+
 RUN pip install -e /submodules/OC_Atari \
  && pip install -e /submodules/HackAtari
 

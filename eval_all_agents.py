@@ -1,8 +1,8 @@
 import os
 
-num_epsiodes = 1  # 10
+num_epsiodes = 10
 # seeds = [1, 2, 3, 4, 5, 6]
-outfolder = "verify_jsons2"
+outfolder = "shared_j"
 agents_folder = "agents"
 script = os.path.join("python_scripts", "eval.py")
 wrappers_to_evaluate = [
