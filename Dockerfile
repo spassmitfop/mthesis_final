@@ -6,6 +6,7 @@ RUN apt update && apt install -y nano
 RUN apt-get update && apt-get install -y dos2unix
 
 COPY requirements.txt .
+COPY eval_all_agents.py /eval_all_agents.py
 COPY ./python_scripts /python_scripts
 COPY ./ocatari_wrappers /ocatari_wrappers
 COPY ./random_jsons /random_jsons
