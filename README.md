@@ -1,48 +1,13 @@
-# OC-CleanRL
+# Repository for the code of my master’s thesis
 
-This fork enables the usage of OCAtari and HackAtari wrappers for Gymnasium instead of pure Gymnasium. OCAtari and HackAtari offer advanced wrappers that extract and use object-centered representations, enabling more interpretable observations and potentially improving training efficiency compared to raw pixel-based inputs. The goal is to use object-centered input representations instead of pure pixel-based ones. Currently, our experiments focus on the prominent Atari environment, particularly games like Pong, Breakout, and Space Invaders, to evaluate the effectiveness of object-centered representations.
+This repository contains code for training and evaluating PPO agents that play games from the Arcade Learning Environment (ALE) using object-centric input representations. These object-centric input representations are variants of [OCAtari's](https://github.com/k4ntz/OC_Atari) Semantic Vector or of [OCCAM's masks](https://github.com/VanillaWhey/OCAtariWrappers). In addition, the object focus of agents trained on raw pixel inputs (DQN-like) or the masks can be compared.
 
-> **ℹ️ Support for Gymnasium and v5**  
-> [Farama-Foundation/Gymnasium](https://github.com/Farama-Foundation/Gymnasium) is the next generation of [`openai/gym`](https://github.com/openai/gym) that will continue to be maintained and introduce new features. Please see their [announcement](https://farama.org/Announcing-The-Farama-Foundation) for further details. CleanRL has already migrated to `gymnasium` (see [vwxyzjn/cleanrl#277](https://github.com/vwxyzjn/cleanrl/pull/277)). Primarily, we base our training on the new v5 versions of the Atari games; see [ALE-Farama](https://ale.farama.org/environments/).
+The code in this repository is based on [OC-CleanRL](https://github.com/BluemlJ/oc_cleanrl/tree/master) and [OCCAM](https://github.com/VanillaWhey/OCAtariWrappers).
 
----
+The trained agents are not contained in this repository; instead, they were uploaded to [Google Drive](https://drive.google.com/drive/folders/1ndNVYIUkW7nXyAWYF1vgSCfMrRH1eKbl?usp=drive_link). After downloading the agents and placing them in a folder named `agents` at the repository root, they can be evaluated using `eval_all_agents.py`. The evaluation results can then be visualized using `generate_bar_plots.py` and displayed in tables using `generate_performance_tables.py`, both located in the `python_scripts` folder.
 
-## About OCAtari
+The tables for the object focus comparison are generated with `generate_object_focus_tables.py` from the same folder. If trained agents are available, the JSON files containing object focus data can be produced by `object_focus_comparison.py`.
 
-You can find the OCAtari repository at [OCAtari GitHub](https://github.com/BluemlJ/OCAtari).
-
-OCAtari is a specialized wrapper designed for Atari environments that transforms pixel-based observations into object-centered representations. This allows agents to interact with the environment using more interpretable and structured inputs. By extracting meaningful object-level features, OCAtari enhances the efficiency and robustness of reinforcement learning models, especially in tasks where pixel-level noise can hinder performance.
-
----
-
-## CleanRL (Clean Implementation of RL Algorithms) - by Costa Huang
-
-CleanRL is a Deep Reinforcement Learning library that provides high-quality, single-file implementations with research-friendly features. The implementation is clean and simple yet scalable to run thousands of experiments using AWS Batch. Key features of CleanRL include:
-
-- **📜 Single-file implementation**
-  - All details about an algorithm variant are in a single, standalone file.
-  - For example, `ppo_atari.py` has only 340 lines of code but contains all implementation details on how PPO works with Atari games. This makes it a great reference implementation for those who do not want to read an entire modular library.
-
-- **📊 Benchmarked Implementations**
-  - Explore 7+ algorithms and 34+ games at [CleanRL Benchmarks](https://benchmark.cleanrl.dev).
-
-- **📈 TensorBoard Logging**
-- **🪛 Local Reproducibility via Seeding**
-- **🎮 Gameplay Video Capturing**
-- **🧫 Experiment Management with [Weights and Biases](https://wandb.ai/site)**
-- **💸 Cloud Integration**
-  - Docker and AWS support for seamless scaling.
-
-We keep this fork up to date with the original CleanRL master branch to enable further adaptations of algorithms for object-centered representations. For more details, you can:
-
-- [Check out the original CleanRL README](./docs/index.md)
-- Read the [JMLR paper](https://www.jmlr.org/papers/volume23/21-1342/21-1342.pdf)
-- Visit the [CleanRL Documentation](https://docs.cleanrl.dev/)
-
-> **⚠️ Note**  
-> CleanRL is *not* a modular library. This means it is not meant to be imported as a library. Instead, it is designed to make all implementation details of a DRL algorithm variant easy to understand, at the cost of duplicate code. Use CleanRL if you want to:
-> 1. Understand all implementation details of an algorithm variant.
-> 2. Prototype advanced features that modular DRL libraries may not support. CleanRL’s minimal lines of code enable easier debugging and avoid extensive subclassing required in modular libraries.
 
 ---
 
