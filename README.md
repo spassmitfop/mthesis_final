@@ -46,10 +46,10 @@ We keep this fork up to date with the original CleanRL master branch to enable f
 
 ---
 
-## Getting Started with OC-CleanRL
+## Getting Started with the repository
 
 ### Prerequisites
-- Python >= 3.9, < 3.13
+- Python 3.10
 - pip
 
 ### Running Experiments Locally
@@ -75,12 +75,13 @@ We keep this fork up to date with the original CleanRL master branch to enable f
    cd ..
    cd submodules/HackAtari
    pip install -e .
+   cd ..
    ```
 
 4. **Start a training run**
 
    ```bash
-   python cleanrl/ppo_atari_oc.py --env-id ALE/Pong-v5 --obs_mode obj --architecture PPO_OBJ --backend OCAtari
+   python cleanrl/ppo_atari_oc.py --env-id ALE/Pong-v5 --obs_mode obj --architecture PPO_OBJ --backend OCAtari --masked_wrapper ext_obj --use_angle
    ```
 
 ---
