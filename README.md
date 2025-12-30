@@ -57,23 +57,23 @@ We keep this fork up to date with the original CleanRL master branch to enable f
 1. **Clone the repository**
 
    ```bash
-   git clone git@github.com:BluemlJ/oc_cleanrl.git --recursive && cd oc_cleanrl
+   git clone https://github.com/spassmitfop/mthesis_final.git && cd mthesis_final
    ```
 
 2. **Install dependencies**
 
    ```bash
    # Core dependencies
-   pip install -r requirements/requirements.txt
-   
-   # Atari-specific dependencies
-   pip install -r requirements/requirements-atari.txt
+   pip install -r requirements.txt
    ```
 
 3. **Enable OCAtari/HackAtari**
 
    ```bash
    cd submodules/OC_Atari
+   pip install -e .
+   cd ..
+   cd submodules/HackAtari
    pip install -e .
    ```
 
@@ -85,37 +85,3 @@ We keep this fork up to date with the original CleanRL master branch to enable f
 
 ---
 
-## Tracking Results with W&B
-
-You can track the results of training runs using [Weights and Biases](https://wandb.ai/): W&B allows you to visualize key metrics, compare runs across different experiments, and easily share results with collaborators. For instance, you can monitor training progress, analyze model performance, and debug issues more effectively using W&B's interactive dashboards.
-
-```bash
-python cleanrl/ppo_atari_oc.py \
-  --env-id ALE/${game_name}-v5 \
-  --backend OCAtari \
-  --obs_mode obj \
-  --architecture PPO_OBJ \
-  --track \
-  --capture_video \
-  --wandb-project-name OCAtari \
-  --exp-name "obj_based_ppo"
-```
-
-Additional W&B settings can be adjusted directly in the training scripts.
-
----
-
-## Next Steps and Contributing
-
-If you have any questions or need support, feel free to reach out by creating an issue on the [GitHub repository](https://github.com/BluemlJ/oc_cleanrl/issues).
-
-### Next Steps
-- Experiment with different Atari environments to explore object-centered representations further.
-- Compare the performance of pixel-based and object-centered models across various tasks.
-- Enable envpool and more methods to use object-centered inputs
-
-### Contributing
-We welcome contributions to OC-CleanRL! If you'd like to contribute:
-1. Fork the repository and create a new branch for your feature or bugfix.
-2. Follow the existing coding style and add relevant tests.
-3. Submit a pull request and include a detailed description of your changes.
