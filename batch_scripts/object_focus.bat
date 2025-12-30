@@ -1,12 +1,10 @@
-REM List of Atari games, methods, wrappers
+
 set games=pong seaquest spaceinvaders amidar freeway boxing
 set methods=Saliency GuidedBackprop
 set wrappers=obs_mode_dqn masked_dqn_bin masked_dqn_planes parallelplanes
 set exts=0 10
 set aggregations=mean
-
-REM masked_dqn_bin masked_dqn_planes parallelplanes
-REM set exts=0 10
+REM set aggregations=mean max
 
 REM Loop through each game
 for %%G in (%games%) do (
@@ -20,7 +18,7 @@ for %%G in (%games%) do (
                 for %%A in (%aggregations%) do (
                     echo Running saliency comparison for %%G %%W %%M ext=%%E am=%%A ...
 
-                    python cleanrl/ppo_atari_object_focus_comparison.py ^
+                    python python_scripts/object_focus_comparison.py ^
                         -g %%G ^
                         -a agents\%%G\1\%%W.cleanrl_model agents\%%G\2\%%W.cleanrl_model agents\%%G\3\%%W.cleanrl_model ^
                         -ca %%M ^
@@ -29,7 +27,7 @@ for %%G in (%games%) do (
                         -n %%W ^
                         -ext %%E ^
                         -am %%A ^
-                        -out verify_saliency_jsons_ext%%E/%%W_%%M_%%A.json
+                        -out object_focus_results2/ext%%E/%%W_%%M_%%A.json
                 )
             )
         )

@@ -763,7 +763,6 @@ if __name__ == "__main__":
     game_name = last_part.split('-')[0]
     model_path = os.path.join(
         *[args.base_dir, game_name.lower(), str(args.seed), f"{args.exp_name}.cleanrl_model"])
-    wandb.log({"model_path": model_path})
     os.makedirs(os.path.dirname(model_path), exist_ok=True)
 
     model_data = {
@@ -775,6 +774,7 @@ if __name__ == "__main__":
 
     # Log final model and performance with Weights and Biases if enabled
     if args.track:
+        wandb.log({"model_path": model_path})
         # Log model to Weights and Biases
         name = f"{args.exp_name}_s{args.seed}"
         # run.log_model(model_path, name)  # noqa: cannot be undefined

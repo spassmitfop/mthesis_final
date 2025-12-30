@@ -6,11 +6,11 @@ from pathlib import Path
 
 import numpy as np
 #folder in which the object focus results are saved
-results_folder = os.path.join(Path(__file__).parent.parent, "verify_saliency3")
+results_folder = os.path.join(Path(__file__).parent.parent, "object_focus_results")
 #should only the first seed be used to generate the tables?
 use_only_first_seed = False
 #which wrapper should appear in the tables?
-wrappers_for_table = ["parallelplanes", "obs_mode_dqn"] #["masked_dqn_bin", "masked_dqn_planes", "parallelplanes", "obs_mode_dqn"]
+wrappers_for_table = ["masked_dqn_bin", "masked_dqn_planes", "parallelplanes", "obs_mode_dqn"]
 #For which saliency methods should tables be generated?
 saliency_methods_for_table = ["Saliency", "GuidedBackprop"]
 #For which aggregations methods should tables be generated?

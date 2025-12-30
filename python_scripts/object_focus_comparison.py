@@ -233,7 +233,7 @@ def main():
     parser.add_argument("-ar", "--architecture", type=str,
                         default="PPO", help="")
     parser.add_argument("-cu", "--cuda", type=bool,
-                        default=False, help="")
+                        default=True, help="")
 
     parser.add_argument("-n", "--name", type=str,
                         default="", help="Name of agent")
@@ -304,6 +304,7 @@ def main():
                                                         work_in_output_shape_binary_mask=False)
 
     device = torch.device("cuda" if torch.cuda.is_available() and args.cuda else "cpu")
+    print(device)
     results = {}
     from collections import defaultdict
     tmp_results = defaultdict(list)
@@ -343,9 +344,10 @@ def main():
             episode_reward = 0
 
             obs_wrapper = obs[mw]
+            obs_t = torch.Tensor(obs_wrapper).unsqueeze(0).to(device)
             while not done:
                 count += 1
-                action = policy(torch.Tensor(obs_wrapper).unsqueeze(0))[0]
+                action = policy(obs_t)[0]
 
                 obs, reward, terminated, truncated, _ = env.step(action)
                 obs_wrapper = obs[mw]
