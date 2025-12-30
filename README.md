@@ -73,8 +73,9 @@ We keep this fork up to date with the original CleanRL master branch to enable f
    cd submodules/OC_Atari
    pip install -e .
    cd ..
-   cd submodules/HackAtari
+   cd HackAtari
    pip install -e .
+   cd ..
    cd ..
    ```
 
