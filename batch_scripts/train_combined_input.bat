@@ -17,7 +17,7 @@ for %%G in (%games%) do (
             --obs_mode obj ^
             --architecture PPOCombi2Big ^
             --backend OCAtari ^
-            --total_timesteps 10000 ^
+            --total_timesteps 10000000 ^
             --masked_wrapper masked_dqn_bin_plus_og_obj ^
             --base_dir new_agents ^
             --exp_name bin_plus_obj_no_bnorm ^

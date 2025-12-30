@@ -13,7 +13,7 @@ for %%G in (%games%) do (
         --masked_wrapper ext_obj ^
         --architecture PPO_OBJ ^
         --backend OCAtari ^
-        --total_timesteps 10000 ^
+        --total_timesteps 10000000 ^
         --num_envs 10 ^
         --seed 6 ^
         --exp_name use_distances2 ^

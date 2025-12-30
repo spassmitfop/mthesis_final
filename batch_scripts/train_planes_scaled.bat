@@ -11,7 +11,7 @@ REM Common parameters
 set OBS_MODE=obj
 set ARCHITECTURE=PPO
 set BACKEND=OCAtari
-set TOTAL_TIMESTEPS=10000
+set TOTAL_TIMESTEPS=10000000
 set NUM_ENVS=10
 set MASKED_WRAPPER=masked_dqn_planes_scaled
 set EXP_NAME=planes_scaled_kr_0point87
