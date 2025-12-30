@@ -4,8 +4,8 @@ from extract_scores_from_json import *
 from scipy import stats
 import math
 
-print_latex_tables = False
-print_wilcoxon_results = False
+print_latex_tables = True
+print_wilcoxon_results = True
 
 if print_wilcoxon_results:
     for baseline, wrappers in baselines.items():

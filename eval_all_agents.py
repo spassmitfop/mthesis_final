@@ -2,8 +2,8 @@ import os
 
 num_epsiodes = 10
 # seeds = [1, 2, 3, 4, 5, 6]
-outfolder = os.path.join("shared_j", "j")
-agents_folder = os.path.join("shared_j", "agents")
+outfolder = os.path.join("performance_results_new")
+agents_folder = os.path.join("agents")
 script = os.path.join("python_scripts", "eval.py")
 wrappers_to_evaluate = [
     'masked_dqn_planes_combined2', 'masked_dqn_bin', 'masked_dqn_planes',

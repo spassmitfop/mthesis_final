@@ -14,7 +14,6 @@ store_min_max_dict = False #should the minimum and maximum scores for each envir
 random_jsons_folder =  os.path.join(Path(__file__).parent.parent, "random_jsons") #folder in which the scores of the random agent are saved
 performance_results_folder = os.path.join(Path(__file__).parent.parent, "performance_results") #folder in which the performance results are saved
 max_dict_json_folder = os.path.join(Path(__file__).parent.parent, "reference_scores") #folder in which the minimum and maximum scores for each environement are saved.
-#These mini
 number_of_seeds_to_use = 3 # only relevant if !use_all_seeds
 
 modifications = {"pong": ["lazy_enemy", "up_drift", "hidden_enemy"],
@@ -46,7 +45,7 @@ relevant_wrappers = ["double_first_hlayer", "double_input", "obs_mode obj",
                      'masked_dqn_bin_scaled --scale_h 1.5 --scale_w 1.5',
                      'masked_dqn_planes_scaled --scale_h 1.5 --scale_w 1.5',
                      "masked_dqn_bin_scaled_1point5", "masked_dqn_planes_scaled_1point5",
-                     "obs_mode_obj","obs_mode_obj2",
+                     "obs_mode_obj",#"obs_mode_obj2",
                      ]
 
 #relevant_wrappers = ["parallelplanes_bugged", "use_t_dis_ang", "obs_mode obj", "parallelplanes"]
